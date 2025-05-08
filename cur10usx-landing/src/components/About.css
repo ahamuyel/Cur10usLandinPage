@@ -13,7 +13,7 @@
   }
   
   .about h2 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     margin-bottom: 20px;
     color: var(--accent-color);
   }
@@ -29,4 +29,10 @@
     color: #555;
     line-height: 1.6;
   }
-  
+  @media (max-width: 768px)  {
+    .about .container, .container .speach{
+      display: grid;
+      justify-content: center;
+      text-align: center;
+    }
+  }
